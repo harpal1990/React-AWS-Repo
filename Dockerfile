@@ -1,5 +1,5 @@
 # Fetching the latest node image on alpine linux
-FROM harpalgohilon/reactsample AS development
+FROM node:alpine AS development
 
 # Declaring env
 ENV NODE_ENV development
